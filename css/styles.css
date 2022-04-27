@@ -191,14 +191,22 @@ button {
 
 /* Hero  */
 .hero {
+  /* width: 1600px; */
   align-items: center;
   text-align: center;
   /* background-color: var(--background-hero-address); */
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: url(../img/Img\ hero1.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../img/Img\ hero1.jpg);
+  max-width: 1600px;
+  margin: 0 auto;
+  /* background-color: rgba(47, 48, 58, 0.4); */
 }
 .hero-title {
   font-family: "Roboto", sans-serif;
