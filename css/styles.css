@@ -345,6 +345,39 @@ button {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+.team-icons-content {
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+.team-icons-list {
+  display: flex;
+  justify-content: center;
+}
+.team-icons-item + .team-icons-item {
+  margin-left: 10px;
+}
+.team-icons-link {
+  width: 44px;
+  height: 44px;
+  background-color: var(--backgraund-team);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #afb1b8;
+}
+.team-icons-link:hover {
+  background-color: #2196f3;
+}
+.team-icons-link:hover {
+  fill: #ffffff;
+}
+.team-icons-link:focus {
+  background-color: #2196f3;
+}
+.team-icons-link:focus {
+  fill: #ffffff;
+}
 
 /* Footer/ */
 .footer {
@@ -399,8 +432,44 @@ button {
 .footer-address-item:last-child {
   margin-bottom: 0px;
 }
-
-/* Портфоліо */
+.footer-icons {
+  display: flex;
+  justify-content: center;
+}
+.footer-icons-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer-icons-list {
+  display: flex;
+  justify-content: center;
+}
+.footer-icons-item + .footer-icons-item {
+  margin-left: 10px;
+}
+.footer-icons-link {
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #ffffff ;
+}
+.footer-icons-link:hover {
+  background-color: #2196F3;
+}
+.footer-icons-link:focus {
+  background-color: #2196f3;
+}
+/* Портфоліо *
 
 .button {
   font-family: "Roboto";
