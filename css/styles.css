@@ -208,6 +208,7 @@ button {
   margin: 0 auto;
   /* background-color: rgba(47, 48, 58, 0.4); */
 }
+
 .hero-title {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
@@ -378,7 +379,56 @@ button {
 .team-icons-link:focus {
   fill: #ffffff;
 }
+/* Постоянные клиенты */
 
+.clients-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 50px;
+}
+.clients-item + .clients-item {
+  margin-left: 30px;
+}
+.clients-item {
+  border: 1px solid #afb1b8;
+}
+.clients-item:hover {
+  border: 1px solid #2196f3;
+}
+
+.clients-item:focus {
+  border: 1px solid #2196f3;
+}
+.clients-list {
+  /* max-width: 170px; */
+  /* border: 1px solid #afb1b8; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clients-link {
+  width: 170px;
+  height: 92px;
+  background-color: #ffffff;
+  align-items: center;
+  fill: #afb1b8;
+}
+.clients-link:hover {
+  fill: #2196f3;
+}
+.clients-link:focus {
+  fill: #2196f3;
+}
+.clients-icon {
+  width: 170px;
+  height: 92px;
+}
 /* Footer/ */
 .footer {
   background-color: var(--background-hero-address);
@@ -435,7 +485,10 @@ button {
 .footer-icons {
   display: flex;
   justify-content: center;
+  flex-grow: 1;
+  margin-left: 70px;
 }
+
 .footer-icons-title {
   font-family: "Roboto";
   font-style: normal;
@@ -461,15 +514,15 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  fill: #ffffff ;
+  fill: #ffffff;
 }
 .footer-icons-link:hover {
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 .footer-icons-link:focus {
   background-color: #2196f3;
 }
-/* Портфоліо *
+/* Портфоліо */
 
 .button {
   font-family: "Roboto";
