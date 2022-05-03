@@ -106,10 +106,10 @@ button {
   margin: 0;
 }
 
-.header-list .header-item + .header-item {
+.header-contact-item-tel {
   margin-left: 50px;
 }
-.header-contact .header-contact-item + .header-contact-item {
+.header-item + .header-item {
   margin-left: 50px;
 }
 .logo-header {
@@ -148,12 +148,17 @@ button {
   color: var(--accent-color);
   background-color: var(--backgraund-team);
 }
+/* .header-contact-link .mail .link::before {
+  content: "\2709";
+  display: block;
+} */
 
 .header-contact .header-contact-link {
   padding-top: 32px;
   padding-bottom: 32px;
   display: block;
 }
+
 .header-contact-link:hover {
   color: var(--accent-color);
   background-color: var(--backgraund-team);
@@ -167,6 +172,18 @@ button {
 /* .header-contact .header-contact-item + .header-contact-item {
   margin-left: 50px;
 } */
+.header-contact .header-contact-icon {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
+}
+.header-contact-icon {
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
 .header-contact-link {
   font-weight: 500;
   line-height: 1.4;
@@ -178,6 +195,9 @@ button {
   color: var(--accent-color);
   background-color: var(--backgraund-team);
 }
+/* .header-contact-item-mail::before {
+  content: "\2709";
+} */
 /* Main nav */
 .main-nav {
   display: flex;
@@ -274,6 +294,22 @@ button {
 }
 .feature .list:last-child {
   margin-right: 0;
+}
+.feature-icon {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 102.34px;
+  fill: #212121;
+  margin-bottom: 30px;
+}
+.feature-icon:hover {
+  border: 4px solid var(--accent-color);
+}
+.feature-icon:focus {
+  border: 4px solid var(--accent-color);
 }
 
 /* About/ */
@@ -435,6 +471,13 @@ button {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
+.footer-wrap .conteiner {
+  display: flex;
+}
+.footer-logo-wrap {
+  width: 231px;
+}
 .footer-address-item {
   margin-bottom: 9px;
 }
@@ -483,10 +526,11 @@ button {
   margin-bottom: 0px;
 }
 .footer-icons {
-  display: flex;
+  /* width: 206px; */
   justify-content: center;
-  flex-grow: 1;
+  align-items: center;
   margin-left: 70px;
+  margin-top: 12px;
 }
 
 .footer-icons-title {
@@ -498,9 +542,16 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+  margin-bottom: 20px;
+}
+.footer-icons-item {
+  margin-left: 0;
 }
 .footer-icons-list {
   display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
   justify-content: center;
 }
 .footer-icons-item + .footer-icons-item {
