@@ -41,15 +41,20 @@
           </ul>
         </nav>
         <ul class="header-contact list">
-          <li class="header-contact-item">
-            <a href="mailto:info@devstudio.com" class="header-contact-link link"
-              >info@devstudio.com</a
+          <li class="header-contact-item-mail">
+            <a
+              href="mailto:info@devstudio.com"
+              class="header-contact-link mail link" >
+            <svg class="header-icon" width="20" heidht="20">
+              <use
+                href="./img/icons/symbol-defs.svg#icon-mail"
+              ></use>
+            </svg> info@devstudio.com</a
             >
           </li>
-          <li class="header-contact-item">
+          <li class="header-contact-item-tel">
             <a href="tel:+380961111111" class="header-contact-link link"
-              >+38 096 111 11 11</a
-            >
+              >+38 096 111 11 11</a>
           </li>
         </ul>
       </div>
@@ -68,6 +73,11 @@
           <h2 class="visually-hidden">Наши преимущества</h2>
           <ul class="feature list">
             <li class="feature-item link">
+              <a href="" class="feature-link">
+                <svg class="feature-icon" width="70" heidht="70">
+                  <use href="./img/icons/symbol-defs.svg#icon-antenna"></use>
+                </svg>
+              </a>
               <h3 class="feature-top-title">Внимание к деталям</h3>
               <p class="feature-text">
                 Идейные соображения, а также начало повседневной работы по
@@ -75,6 +85,11 @@
               </p>
             </li>
             <li class="feature-item link">
+              <a href="" class="feature-link">
+                <svg class="feature-icon" width="66.96" heidht="70">
+                  <use href="./img/icons/symbol-defs.svg#icon-clock"></use>
+                </svg>
+              </a>
               <h3 class="feature-top-title">Пунктуальность</h3>
               <p class="feature-text">
                 Задача организации, в особенности же рамки и место обучения
@@ -82,6 +97,11 @@
               </p>
             </li>
             <li class="feature-item link">
+              <a href="" class="feature-link">
+                <svg class="feature-icon" width="70" heidht="53.69">
+                  <use href="./img/icons/symbol-defs.svg#icon-diagram"></use>
+                </svg>
+              </a>
               <h3 class="feature-top-title">Планирование</h3>
               <p class="feature-text">
                 Равным образом консультация с широким активом в значительной
@@ -89,6 +109,11 @@
               </p>
             </li>
             <li class="feature-item link">
+              <a href="" class="feature-link">
+                <svg class="feature-icon" width="70" heidht="70">
+                  <use href="./img/icons/symbol-defs.svg#icon-astronaut"></use>
+                </svg>
+              </a>
               <h3 class="feature-top-title">Современные технологии</h3>
               <p class="feature-text">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -335,17 +360,16 @@
             <li class="clients-item">
               <a href="" class="clients-link">
                 <svg class="clients-icon" width="41" heidht="46.7">
-                  <use href="./img/icons/symbol-defs.svg#icon-Client-1></use>
+                  <use href="./img/icons/symbol-defs.svg#icon-Client-1"></use>
                 </svg>
               </a>
             </li>
             <li class="clients-item">
               <a href="" class="clients-link">
                 <svg class="clients-icon" width="40" heidht="52">
-                  <use
-                    href="./img/icons/symbol-defs.svg#icon-Client-2"
-                  ></use></svg>
-                </a>
+                  <use href="./img/icons/symbol-defs.svg#icon-Client-2"></use>
+                </svg>
+              </a>
             </li>
             <li class="clients-item">
               <a href="" class="clients-link"
@@ -384,7 +408,9 @@
       </section>
     </main>
     <footer class="footer">
+     <div class="footer-wrap"> 
       <div class="conteiner">
+        <section class="footer-logo-wrap">
         <a href="" class="logo link footer-logo"
           >Web<span class="studio-footer">Studio </span>
         </a>
@@ -412,44 +438,49 @@
               >
             </li>
           </ul>
-          <div class="footer-icons">
-            <h2 class="footer-icons-title">присоединяйтесь</h2>
-            <ul class="footer-icons-list list">
-              <li class="footer-icons-item">
-                <a href="" class="footer-icons-link"
-                  ><svg class="footer-icon" width="20" heidht="20">
-                    <use
-                      href="./img/icons/symbol-defs.svg#icon-instagram"
-                    ></use></svg
-                ></a>
-              </li>
-              <li class="footer-icons-item">
-                <a href="" class="footer-icons-link"
-                  ><svg class="footer-icon" width="20" heidht="20">
-                    <use href="./img/icons/symbol-defs.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="footer-icons-item">
-                <a href="" class="footer-icons-link"
-                  ><svg class="footer-icon" width="20" heidht="20">
-                    <use
-                      href="./img/icons/symbol-defs.svg#icon-facebook"
-                    ></use></svg
-                ></a>
-              </li>
-              <li class="footer-icons-item">
-                <a href="" class="footer-icons-link"
-                  ><svg class="footer-icon" width="20" heidht="20">
-                    <use
-                      href="./img/icons/symbol-defs.svg#icon-linkedin"
-                    ></use></svg
-                ></a>
-              </li>
-            </ul>
-          </div>
         </address>
-      </div>
+      </section>
+      
+      <section class="footer-icons">
+        
+          <h2 class="footer-icons-title">присоединяйтесь</h2>
+          <ul class="footer-icons-list list">
+            <li class="footer-icons-item">
+              <a href="" class="footer-icons-link"
+                ><svg class="footer-icon" width="20" heidht="20">
+                  <use
+                    href="./img/icons/symbol-defs.svg#icon-instagram"
+                  ></use></svg
+              ></a>
+            </li>
+            <li class="footer-icons-item">
+              <a href="" class="footer-icons-link"
+                ><svg class="footer-icon" width="20" heidht="20">
+                  <use href="./img/icons/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-icons-item">
+              <a href="" class="footer-icons-link"
+                ><svg class="footer-icon" width="20" heidht="20">
+                  <use
+                    href="./img/icons/symbol-defs.svg#icon-facebook"
+                  ></use></svg
+              ></a>
+            </li>
+            <li class="footer-icons-item">
+              <a href="" class="footer-icons-link"
+                ><svg class="footer-icon" width="20" heidht="20">
+                  <use
+                    href="./img/icons/symbol-defs.svg#icon-linkedin"
+                  ></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    </div>
     </footer>
   </body>
 </html>
