@@ -195,6 +195,16 @@ button {
   color: var(--accent-color);
   background-color: var(--backgraund-team);
 }
+.header-icon {
+  height: 13px;
+}
+.header-icon:hover {
+  border: 1px solid #2196f3;
+}
+
+.header-icon:focus {
+  border: 1px solid #2196f3;
+}
 /* .header-contact-item-mail::before {
   content: "\2709";
 } */
