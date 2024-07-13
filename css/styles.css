@@ -439,8 +439,8 @@ img {
   align-items: baseline;
 }
 .container-footer-logo {
-  margin-left: 156px;
   margin-right: 120px;
+  margin-left: 156px;
 }
 
 .footer-logo-italic {
@@ -470,7 +470,6 @@ img {
 }
 
 .footer-soc {
-  margin-left: 120px;
   display: inline-block;
   align-items: center;
 }
